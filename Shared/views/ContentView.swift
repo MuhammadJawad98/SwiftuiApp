@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ScrollView{
+            ForEach(places, id:\.self){places in
+                CardView(image: places.image, title: places.title, name: places.city, desc: places.desc)
+            }
+        }
     }
 }
 

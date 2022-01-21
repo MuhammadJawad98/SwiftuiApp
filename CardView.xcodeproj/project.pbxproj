@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB7A565E279A90AC0024B35C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7A565D279A90AC0024B35C /* Post.swift */; };
+		FB7A565F279A92B80024B35C /* PostUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFEA42799A595000FDB9E /* PostUi.swift */; };
+		FB7A5661279A92C90024B35C /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7A5660279A92C90024B35C /* PostsView.swift */; };
+		FB7A5663279A9E470024B35C /* IconButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7A5662279A9E470024B35C /* IconButtons.swift */; };
+		FB7A5665279A9EDB0024B35C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7A5664279A9EDB0024B35C /* Constants.swift */; };
 		FB7C6296278DB89C00395080 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7C6295278DB89C00395080 /* Tests_iOS.swift */; };
 		FB7C6298278DB89C00395080 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7C6297278DB89C00395080 /* Tests_iOSLaunchTests.swift */; };
 		FB7C62A2278DB89C00395080 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7C62A1278DB89C00395080 /* Tests_macOS.swift */; };
@@ -17,6 +22,12 @@
 		FB7C62A8278DB89C00395080 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7C627E278DB89A00395080 /* ContentView.swift */; };
 		FB7C62A9278DB89C00395080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7C627F278DB89C00395080 /* Assets.xcassets */; };
 		FB7C62AA278DB89C00395080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7C627F278DB89C00395080 /* Assets.xcassets */; };
+		FB7C62BB278DBC7200395080 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7C62BA278DBC7200395080 /* CardView.swift */; };
+		FB7C62BC278DBC7200395080 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7C62BA278DBC7200395080 /* CardView.swift */; };
+		FB7C62BE278DBD2200395080 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7C62BD278DBD2200395080 /* Place.swift */; };
+		FBBCFEA52799A595000FDB9E /* PostUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFEA42799A595000FDB9E /* PostUi.swift */; };
+		FBE2190A2791472000675597 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE219092791472000675597 /* Home.swift */; };
+		FBE2190B2791472000675597 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE219092791472000675597 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB7A565D279A90AC0024B35C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FB7A5660279A92C90024B35C /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		FB7A5662279A9E470024B35C /* IconButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButtons.swift; sourceTree = "<group>"; };
+		FB7A5664279A9EDB0024B35C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FB7C627D278DB89A00395080 /* CardViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewApp.swift; sourceTree = "<group>"; };
 		FB7C627E278DB89A00395080 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB7C627F278DB89C00395080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +64,10 @@
 		FB7C629D278DB89C00395080 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7C62A1278DB89C00395080 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		FB7C62A3278DB89C00395080 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		FB7C62BA278DBC7200395080 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FB7C62BD278DBD2200395080 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		FBBCFEA42799A595000FDB9E /* PostUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostUi.swift; sourceTree = "<group>"; };
+		FBE219092791472000675597 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +102,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB7A565C279A909A0024B35C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				FB7C62BD278DBD2200395080 /* Place.swift */,
+				FB7A565D279A90AC0024B35C /* Post.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		FB7A5666279AA2850024B35C /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				FB7A5664279A9EDB0024B35C /* Constants.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		FB7C6277278DB89A00395080 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +133,11 @@
 		FB7C627C278DB89A00395080 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				FB7A5666279AA2850024B35C /* utils */,
+				FB7A565C279A909A0024B35C /* models */,
+				FBBCFEA72799A6DC000FDB9E /* components */,
+				FB7C62B9278DBC4900395080 /* views */,
 				FB7C627D278DB89A00395080 /* CardViewApp.swift */,
-				FB7C627E278DB89A00395080 /* ContentView.swift */,
 				FB7C627F278DB89C00395080 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -139,6 +178,26 @@
 				FB7C62A3278DB89C00395080 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		FB7C62B9278DBC4900395080 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FB7C627E278DB89A00395080 /* ContentView.swift */,
+				FBE219092791472000675597 /* Home.swift */,
+				FB7A5660279A92C90024B35C /* PostsView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FBBCFEA72799A6DC000FDB9E /* components */ = {
+			isa = PBXGroup;
+			children = (
+				FB7C62BA278DBC7200395080 /* CardView.swift */,
+				FBBCFEA42799A595000FDB9E /* PostUi.swift */,
+				FB7A5662279A9E470024B35C /* IconButtons.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +359,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB7C62A7278DB89C00395080 /* ContentView.swift in Sources */,
+				FB7A5665279A9EDB0024B35C /* Constants.swift in Sources */,
+				FBBCFEA52799A595000FDB9E /* PostUi.swift in Sources */,
+				FB7A5663279A9E470024B35C /* IconButtons.swift in Sources */,
+				FB7C62BB278DBC7200395080 /* CardView.swift in Sources */,
 				FB7C62A5278DB89C00395080 /* CardViewApp.swift in Sources */,
+				FBE2190A2791472000675597 /* Home.swift in Sources */,
+				FB7A565E279A90AC0024B35C /* Post.swift in Sources */,
+				FB7A5661279A92C90024B35C /* PostsView.swift in Sources */,
+				FB7C62BE278DBD2200395080 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +376,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB7C62A8278DB89C00395080 /* ContentView.swift in Sources */,
+				FB7C62BC278DBC7200395080 /* CardView.swift in Sources */,
 				FB7C62A6278DB89C00395080 /* CardViewApp.swift in Sources */,
+				FB7A565F279A92B80024B35C /* PostUi.swift in Sources */,
+				FBE2190B2791472000675597 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
