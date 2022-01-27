@@ -12,7 +12,8 @@ struct CardViewApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            PostsView()
+//            PostsView()
+            ListView()
         }
     }
 }
