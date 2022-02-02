@@ -13,7 +13,16 @@ struct CardViewApp: App {
         WindowGroup {
 //            ContentView()
 //            PostsView()
-            ListView()
+//            ListView()
+            NavigationView {
+                       VStack {
+                           Text("Hello World")
+                           //for naviagting between screens
+                           NavigationLink(destination: ListView()) {
+                               Text("Do Something")
+                           }
+                       }
+                   }
         }
     }
 }
